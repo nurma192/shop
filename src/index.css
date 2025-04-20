@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "boxicons";
+
+@theme {
+  --color-primary: #0075ca;
+  --color-primary-light: #0075ca;
+  --color-primary-dark: #0362a6;
+
+  --color-secondary: #f14635;
+  --color-secondary-light: #e8685b;
+  --color-secondary-dark: #b53427;
+
+  --color-background: #ffffff;
+  --color-background-base: #f2f2f2;
+
+  --color-text-primary: #111827;
+  --color-text-secondary: #8f8f8f;
+  --color-text-disabled: #9ca3af;
+}

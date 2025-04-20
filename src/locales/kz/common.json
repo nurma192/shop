@@ -1,0 +1,62 @@
+{
+  "language": {
+    "KZ": "Қаз",
+    "RU": "Рус"
+  },
+  "settings": "Баптаулар",
+  "chooseTheme": "Тақырыпты таңдау",
+  "nav": {
+    "shop": "Дүкен",
+    "accounts": "Шоттар",
+    "deposits": "Салымдар",
+    "redAndCredit": "Red және Kredit",
+    "installments": "Бөліп төлеу",
+    "messages": "Хабарламалар",
+    "main": "Басты бет",
+    "orders": "Тапсырыстар",
+    "my_delivery": "Менің жеткізуім",
+    "products": "Тауарлар"
+  },
+  "shop": {
+    "overview": "Басты бет",
+    "orders": "Тапсырыстар",
+    "delivery": "Менің жеткізуім",
+    "products": "Тауарлар"
+  },
+  "storeCard": {
+    "title": "Дүкен",
+    "name": "ИП Liverpool",
+    "active": "Активті",
+    "cashRegister": "Касса",
+    "connected": "Қосылған"
+  },
+  "metricsCard": {
+    "title": "Сапа көрсеткіштері",
+    "rating": "{{rating}}",
+    "ratingCount": "{{count}} пікірлер",
+    "cancellationRate": "{{rate}}%",
+    "cancellationLabel": "Бас тарту үлесі"
+  },
+  "deliveryCard": {
+    "title": "Жеткізу",
+    "pickup": "Өзің алуың",
+    "ownDelivery": "Менің курьерім",
+    "express": "Экспресс жеткізу"
+  },
+  "ordersSection": {
+    "title": "Тапсырыстар",
+    "searchPlaceholder": "Нөмірі немесе тауар бойынша іздеу...",
+    "noResults": "Осы сұрау бойынша тапсырыстар жоқ"
+  },
+  "orderItem": {
+    "statusActive": "Активті",
+    "statusInactive": "Белсенді емес",
+    "statusConnected": "Қосылған",
+    "statusDisconnected": "Қосылмаған",
+    "statusPending": "Күтуде",
+    "statusDelivered": "Жеткізілді",
+    "statusIssued": "Берілді",
+    "statusShipped": "Жолда",
+    "statusCancelled": "Бас тартылды"
+  }
+}

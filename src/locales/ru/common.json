@@ -1,0 +1,62 @@
+{
+  "language": {
+    "KZ": "Қаз",
+    "RU": "Рус"
+  },
+  "settings": "Настройки",
+  "chooseTheme": "Выбрать тематику",
+  "nav": {
+    "shop": "Магазин",
+    "accounts": "Счета",
+    "deposits": "Депозиты",
+    "redAndCredit": "Red и Kredit",
+    "installments": "Рассрочка",
+    "messages": "Сообщения",
+    "main": "Главная",
+    "orders": "Заказы",
+    "my_delivery": "Моя доставка",
+    "products": "Товары"
+  },
+  "shop": {
+    "overview": "Главная",
+    "orders": "Заказы",
+    "delivery": "Моя доставка",
+    "products": "Товары"
+  },
+  "storeCard": {
+    "title": "Магазин",
+    "name": "ИП Liverpool",
+    "active": "Активен",
+    "cashRegister": "Касса",
+    "connected": "Подключена"
+  },
+  "metricsCard": {
+    "title": "Показатели качества",
+    "rating": "{{rating}}",
+    "ratingCount": "{{count}} оценок",
+    "cancellationRate": "{{rate}}%",
+    "cancellationLabel": "Доля отмен"
+  },
+  "deliveryCard": {
+    "title": "Доставка",
+    "pickup": "Самовывоз",
+    "ownDelivery": "Свой курьер",
+    "express": "Экспресс доставка"
+  },
+  "ordersSection": {
+    "title": "Заказы",
+    "searchPlaceholder": "Поиск по номеру заказа или товару...",
+    "noResults": "Нет заказов по этому запросу"
+  },
+  "orderItem": {
+    "statusActive": "Активен",
+    "statusInactive": "Неактивен",
+    "statusConnected": "Подключен",
+    "statusDisconnected": "Не подключен",
+    "statusPending": "В ожидании",
+    "statusDelivered": "Доставлен",
+    "statusIssued": "Выдан",
+    "statusShipped": "В пути",
+    "statusCancelled": "Отменен"
+  }
+}
