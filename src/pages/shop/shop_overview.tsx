@@ -95,16 +95,6 @@ export const ShopOverview = () => {
             )}
           </div>
         </div>
-        <div className="flex flex-col gap-2 items-start">
-          <StatusBadge status={StatusEnum.Active} />
-          <StatusBadge status={StatusEnum.Inactive} />
-          <StatusBadge status={StatusEnum.Delivered} />
-          <StatusBadge status={StatusEnum.Disconnected} />
-          <StatusBadge status={StatusEnum.Cancelled} />
-          <StatusBadge status={StatusEnum.Issued} />
-          <StatusBadge status={StatusEnum.Pending} />
-          <StatusBadge status={StatusEnum.Shipped} />
-        </div>
       </Card>
     </div>
   );
