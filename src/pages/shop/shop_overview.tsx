@@ -95,6 +95,16 @@ export const ShopOverview = () => {
             )}
           </div>
         </div>
+        <div className="flex flex-col gap-2 items-start">
+          <StatusBadge status={StatusEnum.Active} />
+          <StatusBadge status={StatusEnum.Inactive} />
+          <StatusBadge status={StatusEnum.Delivered} />
+          <StatusBadge status={StatusEnum.Disconnected} />
+          <StatusBadge status={StatusEnum.Cancelled} />
+          <StatusBadge status={StatusEnum.Issued} />
+          <StatusBadge status={StatusEnum.Pending} />
+          <StatusBadge status={StatusEnum.Shipped} />
+        </div>
       </Card>
     </div>
   );
@@ -102,9 +112,9 @@ export const ShopOverview = () => {
 
 export const STATUS_STYLES = {
   [StatusEnum.Active]: {
-    wrapper: "bg-green-500/25",
-    dot: "bg-green-500/50",
-    text: "text-green-500",
+    wrapper: "bg-green-700/20",
+    dot: "bg-green-700",
+    text: "text-green-700",
     label: "statusActive",
   },
   [StatusEnum.Inactive]: {
@@ -114,16 +124,16 @@ export const STATUS_STYLES = {
     label: "statusInactive",
   },
   [StatusEnum.Connected]: {
-    wrapper: "bg-green-500/25",
-    dot: "bg-green-500/50",
-    text: "text-green-500",
+    wrapper: "bg-green-700/20",
+    dot: "bg-green-700",
+    text: "text-green-700",
     label: "statusConnected",
   },
   [StatusEnum.Disconnected]: {
     wrapper: "bg-red-500/25",
     dot: "bg-red-500/50",
     text: "text-red-500",
-    label: "statusDisconnected подключен",
+    label: "Не подключен",
   },
   [StatusEnum.Pending]: {
     wrapper: "bg-yellow-500/25",
@@ -167,7 +177,7 @@ export const StatusBadge: React.FC<StatusBadgeProps> = ({ status }) => {
   const { t } = useTranslation();
 
   return (
-    <div className={wrapper + " inline-flex items-center gap-2 px-1 rounded-md"}>
+    <div className={wrapper + " inline-flex items-center gap-2 px-1 rounded"}>
       <span className={dot + " block w-1 h-1 rounded-full"} />
       <span className={"text-xs " + text}>{t(`orderItem.${label}`)}</span>
     </div>
